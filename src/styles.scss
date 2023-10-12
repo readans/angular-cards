@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[color="primary"] {
+  @apply bg-blue-600 text-white;
+}
+
+[color="secondary"] {
+  @apply bg-gray-800 text-white;
+}
+
+[color="success"] {
+  @apply bg-green-700 text-white;
+}
+
+[color="warning"] {
+  @apply bg-yellow-500 text-white;
+}
+
+[color="error"] {
+  @apply bg-red-600 text-white;
+}
+
+[app-custom-btn] {
+  @apply rounded-md py-2 px-3;
+}
